@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 import WeatherDisplay from './page/WeatherDisplay';
-import SevenDayForecast from './page/7DayForecast';
+import SevenDayForecast from './page/SevenDayForecast';
 const apiKey = '439d4b804bc8187953eb36d2a8c26a02';
 const App = () => {
   const [city, setCity] = useState('');

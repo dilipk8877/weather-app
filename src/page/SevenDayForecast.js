@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSun, faCloud, faCloudRain, faCloudSun, faCloudMoon } from '@fortawesome/free-solid-svg-icons';
+import { faSun, faCloud, faCloudRain } from '@fortawesome/free-solid-svg-icons';
 
 const SevenDayForecast = ({ forecast }) => {
     const getWeatherIcon = (weather) => {
